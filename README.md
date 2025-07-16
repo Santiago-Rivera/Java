@@ -33,12 +33,12 @@
 
 | Módulo                                           | Estado             | Archivos    | Descripción                                               |
 |--------------------------------------------------|--------------------|-------------|-----------------------------------------------------------|
-| 🏁 [Primeros Pasos](./Basico/Primeros-Pasos/)    | ✅ **Completado**   | 6 archivos  | Fundamentos básicos de Java                               |
-| 🔧 [Operadores](./Basico/Operadores/)            | ✅ **Activo**       | 6 archivos  | Operadores aritméticos, lógicos, comparación y asignación |
-| 🔀 [Condicionales](./Basico/Condicionales/)      | ✅ **Activo**       | 4 archivos  | Estructuras de control if, switch y ejercicios            |
+| 🏁 [Primeros Pasos](./basic/primerospasos/)       | ✅ **Completado**   | 6 archivos  | Fundamentos básicos de Java                               |
+| 🔧 [Operadores](./basic/operadores/)             | ✅ **Activo**       | 6 archivos  | Operadores aritméticos, lógicos, comparación y asignación |
+| 🔀 [Condicionales](./basic/condicionales/)       | ✅ **Activo**       | 4 archivos  | Estructuras de control if, switch y ejercicios            |
 | 🔄 [Bucles](./Basico/Bucles/)                    | ⏳ **Próximamente** | -           | Ciclos e iteración                                        |
-| 🎭 [Strings](./Basico/Strings/)                  | ✅ **Activo**       | 10 archivos | Manipulación completa de cadenas de texto                 |
-| 🏗️ [Estructuras](./Basico/Estructuras/)         | ⏳ **Próximamente** | -           | Arrays y colecciones                                      |
+| 🎭 [Strings](./basic/strings/)                   | ✅ **Activo**       | 10 archivos | Manipulación completa de cadenas de texto                 |
+| 🏗️ [Estructuras de Datos](./basic/estructuradedatos/) | ✅ **Completado**   | 5 archivos  | Arrays, listas, mapas, sets y ejercicios prácticos       |
 | 🛠️ [Funciones](./Basico/Funciones/)             | ⏳ **Próximamente** | -           | Métodos y funciones                                       |
 | 🏛️ [POO](./Basico/Poo/)                         | ⏳ **Próximamente** | -           | Programación Orientada a Objetos                          |
 | ⚠️ [Excepciones](./Basico/Excepciones/)          | ⏳ **Próximamente** | -           | Manejo de errores                                         |
@@ -48,8 +48,8 @@
 ### 📈 Progreso del Proyecto
 
 ```text
-📚 Contenido Completado: ██████████████░░░░░░ 70% (4/11 módulos)
-🎯 Archivos Disponibles: 26 ejemplos prácticos
+📚 Contenido Completado: ████████████████░░░░ 80% (5/11 módulos)
+🎯 Archivos Disponibles: 31 ejemplos prácticos
 ⭐ Estado: Desarrollo Avanzado
 ```
 
@@ -59,48 +59,58 @@
 
 | Archivo | Descripción | Conceptos Clave |
 |---------|-------------|-----------------|
-| [`HolaMundo.java`](./Basico/Primeros-Pasos/HolaMundo.java) | Tu primer programa en Java | Estructura básica, `main()`, `println()` |
-| [`HolaMundoEjercicios.java`](./Basico/Primeros-Pasos/HolaMundoEjercicios.java) | Ejercicios variados de inicio | Concatenación, variables, comentarios |
-| [`Comentarios.java`](./Basico/Primeros-Pasos/Comentarios.java) | Tipos de comentarios en Java | `//`, `/* */`, documentación |
-| [`TiposDeDatos.java`](./Basico/Primeros-Pasos/TiposDeDatos.java) | Tipos de datos primitivos y no primitivos | `int`, `double`, `String`, arrays |
-| [`VariablesAndConstantes.java`](./Basico/Primeros-Pasos/VariablesAndConstantes.java) | Variables y constantes | Declaración, `final`, buenas prácticas |
-| [`EjerciciosParaPrincipiantes.java`](./Basico/Primeros-Pasos/EjerciciosParaPrincipiantes.java) | Ejercicios prácticos básicos | Integración de conceptos básicos |
+| [`HolaMundo.java`](./basic/primerospasos/HolaMundo.java) | Tu primer programa en Java | Estructura básica, `main()`, `println()` |
+| [`HolaMundoEjercicios.java`](./basic/primerospasos/ejerciciosprimerospasos.java) | Ejercicios variados de inicio | Concatenación, variables, comentarios |
+| [`Comentarios.java`](./basic/primerospasos/Comentarios.java) | Tipos de comentarios en Java | `//`, `/* */`, documentación |
+| [`TiposDeDatos.java`](./basic/primerospasos/tiposdedatosprimitivos.java) | Tipos de datos primitivos y no primitivos | `int`, `double`, `String`, arrays |
+| [`VariablesAndConstantes.java`](./basic/primerospasos/variablesyconstantes.java) | Variables y constantes | Declaración, `final`, buenas prácticas |
+| [`EjerciciosParaPrincipiantes.java`](./basic/primerospasos/ejerciciosvariablesyconstantes.java) | Ejercicios prácticos básicos | Integración de conceptos básicos |
 
 ### 🔧 **Operadores** - ¡Nuevo Contenido
 
 | Archivo | Descripción | Conceptos Clave |
 |---------|-------------|-----------------|
-| [`OperadoresAritmeticos.java`](./Basico/Operadores/OperadoresAritmeticos.java) | Operaciones matemáticas básicas | `+`, `-`, `*`, `/`, `%` (módulo) |
-| [`OperadoresLogicos.java`](./Basico/Operadores/OperadoresLogicos.java) | Operadores lógicos y booleanos | `&&`, `\|\|`, `!`, operaciones lógicas |
-| [`OperadorComparacion.java`](./Basico/Operadores/OperadorComparacion.java) | Operadores de comparación | `==`, `!=`, `>`, `<`, `>=`, `<=` |
-| [`OperadoresAsignacion.java`](./Basico/Operadores/OperadoresAsignacion.java) | Operadores de asignación | `=`, `+=`, `-=`, `*=`, `/=`, `%=` |
-| [`OperadorUnarios.java`](./Basico/Operadores/OperadorUnarios.java) | Operadores unarios | `++`, `--`, `+`, `-`, incremento/decremento |
-| [`EjercicioOperadores.java`](./Basico/Operadores/EjercicioOperadores.java) | Ejercicios prácticos combinados | Integración de todos los operadores |
+| [`OperadoresAritmeticos.java`](./basic/operadores/operadoresaritmeticos.java) | Operaciones matemáticas básicas | `+`, `-`, `*`, `/`, `%` (módulo) |
+| [`OperadoresLogicos.java`](./basic/operadores/operadoreslogicos.java) | Operadores lógicos y booleanos | `&&`, `\|\|`, `!`, operaciones lógicas |
+| [`OperadorComparacion.java`](./basic/operadores/operadorescomparacion.java) | Operadores de comparación | `==`, `!=`, `>`, `<`, `>=`, `<=` |
+| [`OperadoresAsignacion.java`](./basic/operadores/operadoresasignacion.java) | Operadores de asignación | `=`, `+=`, `-=`, `*=`, `/=`, `%=` |
+| [`OperadorUnarios.java`](./basic/operadores/opreradoresunarios.java) | Operadores unarios | `++`, `--`, `+`, `-`, incremento/decremento |
+| [`EjercicioOperadores.java`](./basic/operadores/ejerciciosoperadores.java) | Ejercicios prácticos combinados | Integración de todos los operadores |
 
 ### 🎭 **Strings** - ¡Nuevo Contenido
 
 | Archivo | Descripción | Conceptos Clave |
 |---------|-------------|-----------------|
-| [`Strings.java`](./Basico/Strings/Strings.java) | Conceptos básicos de cadenas | Declaración, inicialización, inmutabilidad |
-| [`Concatenacion.java`](./Basico/Strings/Concatenacion.java) | Concatenación de cadenas | `+`, `concat()`, StringBuilder |
-| [`Length.java`](./Basico/Strings/Length.java) | Longitud de cadenas | `length()`, medición de strings |
-| [`CharAt.java`](./Basico/Strings/CharAt.java) | Acceso a caracteres individuales | `charAt(index)`, navegación por caracteres |
-| [`SubString.java`](./Basico/Strings/SubString.java) | Extracción de subcadenas | `substring()`, rangos de texto |
-| [`ToUpperCaseAndToLowerCase.java`](./Basico/Strings/ToUpperCaseAndToLowerCase.java) | Conversión de mayúsculas/minúsculas | `toUpperCase()`, `toLowerCase()` |
-| [`TrimAndReplace.java`](./Basico/Strings/TrimAndReplace.java) | Limpieza y reemplazo de texto | `trim()`, `replace()`, `replaceAll()` |
-| [`Equals.java`](./Basico/Strings/Equals.java) | Comparación de cadenas | `equals()`, `equalsIgnoreCase()`, `compareTo()` |
-| [`Contains.java`](./Basico/Strings/Contains.java) | Búsqueda en cadenas | `contains()`, `indexOf()`, `startsWith()`, `endsWith()` |
-| [`Format.java`](./Basico/Strings/Format.java) | Formateo de cadenas | `String.format()`, `printf()`, plantillas |
-| [`EjeciciosString.java`](./Basico/Strings/EjeciciosString.java) | Ejercicios prácticos integrados | Combinación de métodos de String |
+| [`Strings.java`](./basic/strings/strings.java) | Conceptos básicos de cadenas | Declaración, inicialización, inmutabilidad |
+| [`Concatenacion.java`](./basic/strings/concatenacion.java) | Concatenación de cadenas | `+`, `concat()`, StringBuilder |
+| [`Length.java`](./basic/strings/length.java) | Longitud de cadenas | `length()`, medición de strings |
+| [`CharAt.java`](./basic/strings/charAt.java) | Acceso a caracteres individuales | `charAt(index)`, navegación por caracteres |
+| [`SubString.java`](./basic/strings/substring.java) | Extracción de subcadenas | `substring()`, rangos de texto |
+| [`ToUpperCaseAndToLowerCase.java`](./basic/strings/touppercaseytolowercase.java) | Conversión de mayúsculas/minúsculas | `toUpperCase()`, `toLowerCase()` |
+| [`TrimAndReplace.java`](./basic/strings/trimyreplace.java) | Limpieza y reemplazo de texto | `trim()`, `replace()`, `replaceAll()` |
+| [`Equals.java`](./basic/strings/equals.java) | Comparación de cadenas | `equals()`, `equalsIgnoreCase()`, `compareTo()` |
+| [`Contains.java`](./basic/strings/constrains.java) | Búsqueda en cadenas | `contains()`, `indexOf()`, `startsWith()`, `endsWith()` |
+| [`Format.java`](./basic/strings/format.java) | Formateo de cadenas | `String.format()`, `printf()`, plantillas |
+| [`EjeciciosString.java`](./basic/strings/ejerciciosstrings.java) | Ejercicios prácticos integrados | Combinación de métodos de String |
 
 ### 🔀 **Condicionales** - ¡Nuevo Contenido
 
 | Archivo | Descripción | Conceptos Clave |
 |---------|-------------|-----------------|
-| [`If.java`](./Basico/Condicionales/If.java) | Estructuras condicionales básicas | `if`, `else if`, `else`, operador ternario |
-| [`Switch.java`](./Basico/Condicionales/Switch.java) | Switch expressions modernas | `switch` con `->`, pattern matching |
-| [`Conditionals.java`](./Basico/Condicionales/Conditionals.java) | Condicionales avanzadas | Combinación de condiciones, lógica compleja |
-| [`EjerciciosCondicionales.java`](./Basico/Condicionales/EjerciciosCondicionales.java) | Ejercicios prácticos | Aplicación de todas las estructuras condicionales |
+| [`If.java`](./basic/condicionales/sentenicaif.java) | Estructuras condicionales básicas | `if`, `else if`, `else`, operador ternario |
+| [`Switch.java`](./basic/condicionales/sentenciaswitch.java) | Switch expressions modernas | `switch` con `->`, pattern matching |
+| [`Conditionals.java`](./basic/condicionales/condicionales.java) | Condicionales avanzadas | Combinación de condiciones, lógica compleja |
+| [`EjerciciosCondicionales.java`](./basic/condicionales/ejercicioscondicionales.java) | Ejercicios prácticos | Aplicación de todas las estructuras condicionales |
+
+### 🏗️ **Estructuras de Datos** - ¡Completado
+
+| Archivo | Descripción | Conceptos Clave |
+|---------|-------------|-----------------|
+| [`arrays.java`](./basic/estructuradedatos/arrays.java) | Arrays básicos en Java | Declaración, inicialización, acceso, modificación |
+| [`listas.java`](./basic/estructuradedatos/listas.java) | ArrayList y operaciones | `ArrayList`, `add()`, `get()`, `set()`, `remove()`, `size()` |
+| [`maps.java`](./basic/estructuradedatos/maps.java) | HashMap y mapas clave-valor | `HashMap`, `put()`, `get()`, `remove()`, `keySet()` |
+| [`sets.java`](./basic/estructuradedatos/sets.java) | HashSet y conjuntos únicos | `HashSet`, `add()`, `contains()`, `remove()`, unicidad |
+| [`ejerciciosestructuras.java`](./basic/estructuradedatos/ejerciciosestructuras.java) | Ejercicios integrados | Combinación de arrays, listas, maps y sets |
 
 ### 🎯 Lo Que Aprenderás
 
@@ -135,7 +145,7 @@
 - ✅ Formateo de cadenas (`String.format()`, `printf()`)
 - ✅ Ejercicios prácticos completos
 
-#### � **Condicionales** - ¡Ya Disponible
+#### 🔀 **Condicionales** - ¡Ya Disponible
 
 - ✅ Estructuras `if`, `else if`, `else`
 - ✅ Operador ternario (`condición ? valor1 : valor2`)
@@ -146,7 +156,18 @@
 - ✅ Mejores prácticas en control de flujo
 - ✅ Ejercicios prácticos completos
 
-#### �🔧 **Conceptos Intermedios** (Próximamente)
+#### 🏗️ **Estructuras de Datos** - ¡Ya Disponible
+
+- ✅ Arrays básicos: declaración, inicialización y manipulación
+- ✅ ArrayList: listas dinámicas (`add()`, `get()`, `set()`, `remove()`)
+- ✅ HashMap: mapas clave-valor (`put()`, `get()`, `remove()`, `keySet()`)
+- ✅ HashSet: conjuntos únicos (`add()`, `contains()`, `remove()`)
+- ✅ Operaciones comunes: tamaño, vacío, iteración
+- ✅ Enhanced for loops (foreach) para colecciones
+- ✅ Comparación entre diferentes estructuras de datos
+- ✅ Ejercicios prácticos integrados
+
+#### 🔧 **Conceptos Intermedios** (Próximamente)
 
 ### 📋 Requisitos
 
@@ -204,7 +225,7 @@ cd Java
 
 ```bash
 # Navega a Primeros Pasos
-cd Basico/Primeros-Pasos
+cd basic/primerospasos
 
 # Compila y ejecuta HolaMundo
 javac HolaMundo.java
@@ -215,25 +236,33 @@ java HolaMundo
 
 ```bash
 # Explora Primeros Pasos
-javac TiposDeDatos.java && java TiposDeDatos
-javac VariablesAndConstantes.java && java VariablesAndConstantes
+javac tiposdedatosprimitivos.java && java tiposdedatosprimitivos
+javac variablesyconstantes.java && java variablesyconstantes
 
 # Prueba los Operadores
-cd ../Operadores
-javac OperadoresAritmeticos.java && java OperadoresAritmeticos
-javac OperadoresLogicos.java && java OperadoresLogicos
+cd ../operadores
+javac operadoresaritmeticos.java && java operadoresaritmeticos
+javac operadoreslogicos.java && java operadoreslogicos
 
 # Explora Strings
-cd ../Strings
-javac Concatenacion.java && java Concatenacion
-javac CharAt.java && java CharAt
-javac Equals.java && java Equals
+cd ../strings
+javac concatenacion.java && java concatenacion
+javac charAt.java && java charAt
+javac equals.java && java equals
 
 # Prueba Condicionales (¡Nuevo!)
-cd ../Condicionales
-javac If.java && java If
-javac Switch.java && java Switch
-javac EjerciciosCondicionales.java && java EjerciciosCondicionales
+cd ../condicionales
+javac sentenicaif.java && java sentenicaif
+javac sentenciaswitch.java && java sentenciaswitch
+javac ejercicioscondicionales.java && java ejercicioscondicionales
+
+# Explora Estructuras de Datos (¡Nuevo!)
+cd ../estructuradedatos
+javac arrays.java && java arrays
+javac listas.java && java listas
+javac maps.java && java maps
+javac sets.java && java sets
+javac ejerciciosestructuras.java && java ejerciciosestructuras
 ```
 
 ## 📚 Recursos de Aprendizaje
