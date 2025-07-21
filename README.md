@@ -2,7 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColo| [`composicion.java`](./basic/poo/composicion.java) | Composición | Relaciones entre obje- ✅ Ejercicios prácticos completos
 
-#### ⚠️ **Manejo de Excepciones** - ¡Ya Disponible
+## ⚠️ **Manejo de Excepciones** - ¡Ya Disponible
 
 - ✅ **Fundamentos**: `try`, `catch`, `finally`
 - ✅ **Tipos de excepciones**: checked vs unchecked exceptions
@@ -14,7 +14,7 @@
 - ✅ **Casos comunes**: `ArithmeticException`, `ArrayIndexOutOfBoundsException`
 - ✅ **Ejercicios prácticos**: integración de todos los conceptos
 
-#### 🔧 **Conceptos Avanzados** (Próximamente), composición vs herencia |
+### 🔧 **Conceptos Avanzados** (Próximamente), composición vs herencia |
 
 ### ⚠️ **Excepciones** - ¡Completado
 
@@ -26,7 +26,8 @@
 | [`excepcionespersonalizadas.java`](./basic/excepciones/excepcionespersonalizadas.java) | Excepciones personalizadas | Creación de excepciones custom, `extends Exception` |
 | [`ejerciciosdeexcepciones.java`](./basic/excepciones/ejerciciosdeexcepciones.java) | Ejercicios prácticos integrados | Combinación de todos los conceptos de excepciones |
 
-### 🎯 Lo Que Aprenderáshite)](https://www.oracle.com/java/)
+### 🎯 Lo Que Aprenderáshite)](<https://www.oracle.com/java/>)
+
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 [![GitHub Stars](https://img.shields.io/github/stars/Santiago-Rivera/Java?style=for-the-badge)](https://github.com/Santiago-Rivera/Java)
