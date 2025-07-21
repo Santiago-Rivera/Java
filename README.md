@@ -1,32 +1,25 @@
 # ☕ Guía Completa de Java - De Principiante a Experto
 
-[![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColo| [`composicion.java`](./basic/poo/composicion.java) | Composición | Relaciones entre obje- ✅ Ejercicios prácticos completos
+[![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor| [`composicion.java`](./basic/poo/composicion.java) | Composición | Relaciones entre - ✅ Ejercicios prácticos completos
 
-## ⚠️ **Manejo de Excepciones** - ¡Ya Disponible
+## 🐛 **Depuración de Errores** - ¡Ya Disponible
 
-- ✅ **Fundamentos**: `try`, `catch`, `finally`
-- ✅ **Tipos de excepciones**: checked vs unchecked exceptions
-- ✅ **Manejo múltiple**: múltiples bloques `catch`
-- ✅ **Lanzamiento**: `throw`, `throws`, propagación de excepciones
-- ✅ **Excepciones personalizadas**: creación de excepciones custom
-- ✅ **Jerarquía**: comprensión de la jerarquía de excepciones
-- ✅ **Mejores prácticas**: cuándo y cómo manejar excepciones
-- ✅ **Casos comunes**: `ArithmeticException`, `ArrayIndexOutOfBoundsException`
-- ✅ **Ejercicios prácticos**: integración de todos los conceptos
+- ✅ **Fundamentos de depuración**: manejo básico de errores en tiempo de ejecución
+- ✅ **Excepciones comunes**: `ArrayIndexOutOfBoundsException` y su manejo
+- ✅ **Bloques try-catch-finally**: estructura completa de manejo de errores
+- ✅ **Mensajes de error**: obtención y presentación de información de errores
+- ✅ **Depuración práctica**: ejemplo funcional de manejo de errores
+- ✅ **Mejores prácticas**: cuándo y cómo debuggear código Java
 
-### 🔧 **Conceptos Avanzados** (Próximamente), composición vs herencia |
+### 🔧 **Conceptos Intermedios** (Próximamente)etos, composición vs herencia |
 
-### ⚠️ **Excepciones** - ¡Completado
+### 🐛 **Depuración de Errores** - ¡Completado
 
 | Archivo | Descripción | Conceptos Clave |
 |---------|-------------|-----------------|
-| [`excepciones.java`](./basic/excepciones/excepciones.java) | Fundamentos de excepciones | `try`, `catch`, `finally`, tipos de excepciones |
-| [`manejodeexcepciones.java`](./basic/excepciones/manejodeexcepciones.java) | Manejo básico de excepciones | Múltiples `catch`, jerarquía de excepciones |
-| [`lanzamientodeexcepciones.java`](./basic/excepciones/lanzamientodeexcepciones.java) | Lanzamiento de excepciones | `throw`, `throws`, propagación de excepciones |
-| [`excepcionespersonalizadas.java`](./basic/excepciones/excepcionespersonalizadas.java) | Excepciones personalizadas | Creación de excepciones custom, `extends Exception` |
-| [`ejerciciosdeexcepciones.java`](./basic/excepciones/ejerciciosdeexcepciones.java) | Ejercicios prácticos integrados | Combinación de todos los conceptos de excepciones |
+| [`depuraciondeerrores.java`](./basic/depuracionderrores/depuraciondeerrores.java) | Depuración básica de errores | `try-catch-finally`, manejo de `ArrayIndexOutOfBoundsException` |
 
-### 🎯 Lo Que Aprenderáshite)](<https://www.oracle.com/java/>)
+### 🎯 Lo Que Aprenderásite)](<https://www.oracle.com/java/>)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
@@ -56,7 +49,7 @@
 
 > 🔄 Contenido en desarrollo activo - Se actualiza regularmente
 >
-> 🎉 **¡HITO ÉPICO ALCANZADO!** - Excepciones completadas - 95% del contenido listo
+> 🎉 **¡HITO ÉPICO ALCANZADO!** - Depuración completada - 97% del contenido listo
 
 ### 📁 Módulos Disponibles
 
@@ -71,15 +64,15 @@
 | 🛠️ [Funciones](./basic/funciones/)              | ✅ **Completado**   | 5 archivos  | Métodos, parámetros, retorno, sobrecarga y ejercicios    |
 | 🏛️ [POO](./basic/poo/)                          | ✅ **Completado**   | 12 archivos | Programación Orientada a Objetos completa                |
 | ⚠️ [Excepciones](./basic/excepciones/)           | ✅ **Completado**   | 5 archivos  | Manejo de errores y excepciones completo                 |
-| 🐛 [Depuración](./Basico/Depuración-de-errores/) | ⏳ **Próximamente** | -           | Testing y debugging                                       |
+| 🐛 [Depuración](./basic/depuracionderrores/)     | ✅ **Completado**   | 1 archivo   | Depuración y manejo de errores                           |
 | ⭐ [Extras](./Basico/Extras/)                     | ⏳ **Próximamente** | -           | Características avanzadas                                 |
 
 ### 📈 Progreso del Proyecto
 
 ```text
-📚 Contenido Completado: ███████████████████░ 95% (9/11 módulos)
-🎯 Archivos Disponibles: 58 ejemplos prácticos
-⭐ Estado: Nivel Avanzado - Solo faltan módulos especializados
+📚 Contenido Completado: ███████████████████▓ 97% (10/11 módulos)
+🎯 Archivos Disponibles: 59 ejemplos prácticos
+⭐ Estado: Nivel Experto - Solo falta el módulo de extras
 ```
 
 ## 🚀 Contenido Disponible
@@ -386,6 +379,10 @@ javac manejodeexcepciones.java && java manejodeexcepciones
 javac lanzamientodeexcepciones.java && java lanzamientodeexcepciones
 javac excepcionespersonalizadas.java && java excepcionespersonalizadas
 javac ejerciciosdeexcepciones.java && java ejerciciosdeexcepciones
+
+# Aprende Depuración (¡Nuevo!)
+cd ../depuracionderrores
+javac depuraciondeerrores.java && java depuraciondeerrores
 ```
 
 ## 📚 Recursos de Aprendizaje
