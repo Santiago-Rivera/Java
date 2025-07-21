@@ -3,7 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![License](https://img.shields.io/ba- ✅ Ejercicios prácticos completos
 
-#### 🏛️ **Programación Orientada a Objetos (POO)** - ¡Ya Disponible
+## 🏛️ **Programación Orientada a Objetos (POO)** - ¡Ya Disponible
 
 - ✅ **Conceptos fundamentales**: paradigma orientado a objetos
 - ✅ **Clases y objetos**: definición, instanciación, atributos y métodos
@@ -15,7 +15,8 @@
 - ✅ **Ejercicios prácticos**: para cada concepto de POO
 - ✅ **Mejores prácticas**: diseño orientado a objetos
 
-#### 🔧 **Conceptos Avanzados** (Próximamente)/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+### 🔧 **Conceptos Avanzados** (Próximamente)/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 [![GitHub Stars](https://img.shields.io/github/stars/Santiago-Rivera/Java?style=for-the-badge)](https://github.com/Santiago-Rivera/Java)
 [![Last Updated](https://img.shields.io/badge/Updated-Julio%202025-blue?style=for-the-badge)](https://github.com/Santiago-Rivera/Java)
