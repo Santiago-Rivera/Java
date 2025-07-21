@@ -28,6 +28,8 @@
 ## 📊 Estado Actual del Contenido
 
 > 🔄 Contenido en desarrollo activo - Se actualiza regularmente
+>
+> 🎉 **¡HITO ALCANZADO!** - Todos los módulos básicos de Java están completos
 
 ### 📁 Módulos Disponibles
 
@@ -39,7 +41,7 @@
 | 🔄 [Bucles](./basic/bucles/)                     | ✅ **Completado**   | 5 archivos  | Ciclos for, while, do-while, foreach y control de flujo   |
 | 🎭 [Strings](./basic/strings/)                   | ✅ **Activo**       | 10 archivos | Manipulación completa de cadenas de texto                 |
 | 🏗️ [Estructuras de Datos](./basic/estructuradedatos/) | ✅ **Completado**   | 5 archivos  | Arrays, listas, mapas, sets y ejercicios prácticos       |
-| 🛠️ [Funciones](./Basico/Funciones/)             | ⏳ **Próximamente** | -           | Métodos y funciones                                       |
+| 🛠️ [Funciones](./basic/funciones/)              | ✅ **Completado**   | 5 archivos  | Métodos, parámetros, retorno, sobrecarga y ejercicios    |
 | 🏛️ [POO](./Basico/Poo/)                         | ⏳ **Próximamente** | -           | Programación Orientada a Objetos                          |
 | ⚠️ [Excepciones](./Basico/Excepciones/)          | ⏳ **Próximamente** | -           | Manejo de errores                                         |
 | 🐛 [Depuración](./Basico/Depuración-de-errores/) | ⏳ **Próximamente** | -           | Testing y debugging                                       |
@@ -48,9 +50,9 @@
 ### 📈 Progreso del Proyecto
 
 ```text
-📚 Contenido Completado: ██████████████████░░ 90% (6/11 módulos)
-🎯 Archivos Disponibles: 36 ejemplos prácticos
-⭐ Estado: Desarrollo Avanzado
+📚 Contenido Completado: ████████████████████ 100% (7/11 módulos básicos)
+🎯 Archivos Disponibles: 41 ejemplos prácticos
+⭐ Estado: Nivel Básico Completado - Avanzando a Intermedio
 ```
 
 ## 🚀 Contenido Disponible
@@ -122,6 +124,16 @@
 | [`sets.java`](./basic/estructuradedatos/sets.java) | HashSet y conjuntos únicos | `HashSet`, `add()`, `contains()`, `remove()`, unicidad |
 | [`ejerciciosestructuras.java`](./basic/estructuradedatos/ejerciciosestructuras.java) | Ejercicios integrados | Combinación de arrays, listas, maps y sets |
 
+### 🛠️ **Funciones** - ¡Completado
+
+| Archivo | Descripción | Conceptos Clave |
+|---------|-------------|-----------------|
+| [`funciones.java`](./basic/funciones/funciones.java) | Conceptos fundamentales de funciones | Definición, llamada, `static`, estructura básica |
+| [`funcionessinparametrosniretorno.java`](./basic/funciones/funcionessinparametrosniretorno.java) | Funciones básicas sin parámetros | `void`, procedimientos, funciones simples |
+| [`funcionesconretorno.java`](./basic/funciones/funcionesconretorno.java) | Funciones con valor de retorno | `return`, tipos de retorno, manejo de resultados |
+| [`funcionesconparametors_sobrecarga.java`](./basic/funciones/funcionesconparametors_sobrecarga.java) | Parámetros y sobrecarga de métodos | Parámetros, sobrecarga (`overload`), polimorfismo |
+| [`ejerciciosdefunciones.java`](./basic/funciones/ejerciciosdefunciones.java) | Ejercicios prácticos integrados | Combinación de todos los conceptos de funciones |
+
 ### 🎯 Lo Que Aprenderás
 
 #### 🏁 **Fundamentos Básicos**
@@ -188,7 +200,19 @@
 - ✅ Comparación entre diferentes estructuras de datos
 - ✅ Ejercicios prácticos integrados
 
-#### 🔧 **Conceptos Intermedios** (Próximamente)
+#### �️ **Funciones (Métodos)** - ¡Ya Disponible
+
+- ✅ Conceptos fundamentales: definición y llamada de funciones
+- ✅ Modificador `static`: métodos de clase vs instancia
+- ✅ Funciones sin parámetros ni retorno (`void`)
+- ✅ Funciones con valor de retorno: tipos primitivos y objetos
+- ✅ Parámetros de entrada: paso por valor y referencia
+- ✅ Sobrecarga de métodos (`method overloading`)
+- ✅ Manejo de excepciones en funciones
+- ✅ Buenas prácticas en diseño de funciones
+- ✅ Ejercicios prácticos completos
+
+#### �🔧 **Conceptos Intermedios** (Próximamente)
 
 ### 📋 Requisitos
 
@@ -292,6 +316,14 @@ javac listas.java && java listas
 javac maps.java && java maps
 javac sets.java && java sets
 javac ejerciciosestructuras.java && java ejerciciosestructuras
+
+# Aprende Funciones (¡Nuevo!)
+cd ../funciones
+javac funciones.java && java funciones
+javac funcionessinparametrosniretorno.java && java funcionessinparametrosniretorno
+javac funcionesconretorno.java && java funcionesconretorno
+javac funcionesconparametors_sobrecarga.java && java funcionesconparametors_sobrecarga
+javac ejerciciosdefunciones.java && java ejerciciosdefunciones
 ```
 
 ## 📚 Recursos de Aprendizaje
