@@ -1,22 +1,33 @@
 # ☕ Guía Completa de Java - De Principiante a Experto
 
-[![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![License](https://img.shields.io/ba- ✅ Ejercicios prácticos completos
+[![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColo| [`composicion.java`](./basic/poo/composicion.java) | Composición | Relaciones entre obje- ✅ Ejercicios prácticos completos
 
-## 🏛️ **Programación Orientada a Objetos (POO)** - ¡Ya Disponible
+#### ⚠️ **Manejo de Excepciones** - ¡Ya Disponible
 
-- ✅ **Conceptos fundamentales**: paradigma orientado a objetos
-- ✅ **Clases y objetos**: definición, instanciación, atributos y métodos
-- ✅ **Herencia**: `extends`, superclases, subclases, palabra clave `super`
-- ✅ **Polimorfismo**: sobrescritura de métodos, `@Override`, polimorfismo dinámico
-- ✅ **Abstracción**: clases abstractas, métodos abstractos, interfaces
-- ✅ **Encapsulación**: modificadores de acceso (`public`, `private`, `protected`)
-- ✅ **Composición**: relaciones entre objetos, composición vs herencia
-- ✅ **Ejercicios prácticos**: para cada concepto de POO
-- ✅ **Mejores prácticas**: diseño orientado a objetos
+- ✅ **Fundamentos**: `try`, `catch`, `finally`
+- ✅ **Tipos de excepciones**: checked vs unchecked exceptions
+- ✅ **Manejo múltiple**: múltiples bloques `catch`
+- ✅ **Lanzamiento**: `throw`, `throws`, propagación de excepciones
+- ✅ **Excepciones personalizadas**: creación de excepciones custom
+- ✅ **Jerarquía**: comprensión de la jerarquía de excepciones
+- ✅ **Mejores prácticas**: cuándo y cómo manejar excepciones
+- ✅ **Casos comunes**: `ArithmeticException`, `ArrayIndexOutOfBoundsException`
+- ✅ **Ejercicios prácticos**: integración de todos los conceptos
 
-### 🔧 **Conceptos Avanzados** (Próximamente)/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+#### 🔧 **Conceptos Avanzados** (Próximamente), composición vs herencia |
 
+### ⚠️ **Excepciones** - ¡Completado
+
+| Archivo | Descripción | Conceptos Clave |
+|---------|-------------|-----------------|
+| [`excepciones.java`](./basic/excepciones/excepciones.java) | Fundamentos de excepciones | `try`, `catch`, `finally`, tipos de excepciones |
+| [`manejodeexcepciones.java`](./basic/excepciones/manejodeexcepciones.java) | Manejo básico de excepciones | Múltiples `catch`, jerarquía de excepciones |
+| [`lanzamientodeexcepciones.java`](./basic/excepciones/lanzamientodeexcepciones.java) | Lanzamiento de excepciones | `throw`, `throws`, propagación de excepciones |
+| [`excepcionespersonalizadas.java`](./basic/excepciones/excepcionespersonalizadas.java) | Excepciones personalizadas | Creación de excepciones custom, `extends Exception` |
+| [`ejerciciosdeexcepciones.java`](./basic/excepciones/ejerciciosdeexcepciones.java) | Ejercicios prácticos integrados | Combinación de todos los conceptos de excepciones |
+
+### 🎯 Lo Que Aprenderáshite)](https://www.oracle.com/java/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 [![GitHub Stars](https://img.shields.io/github/stars/Santiago-Rivera/Java?style=for-the-badge)](https://github.com/Santiago-Rivera/Java)
 [![Last Updated](https://img.shields.io/badge/Updated-Julio%202025-blue?style=for-the-badge)](https://github.com/Santiago-Rivera/Java)
@@ -44,7 +55,7 @@
 
 > 🔄 Contenido en desarrollo activo - Se actualiza regularmente
 >
-> 🎉 **¡GRAN HITO ALCANZADO!** - POO completado - Fundamentos e Intermedio dominados
+> 🎉 **¡HITO ÉPICO ALCANZADO!** - Excepciones completadas - 95% del contenido listo
 
 ### 📁 Módulos Disponibles
 
@@ -58,16 +69,16 @@
 | 🏗️ [Estructuras de Datos](./basic/estructuradedatos/) | ✅ **Completado**   | 5 archivos  | Arrays, listas, mapas, sets y ejercicios prácticos       |
 | 🛠️ [Funciones](./basic/funciones/)              | ✅ **Completado**   | 5 archivos  | Métodos, parámetros, retorno, sobrecarga y ejercicios    |
 | 🏛️ [POO](./basic/poo/)                          | ✅ **Completado**   | 12 archivos | Programación Orientada a Objetos completa                |
-| ⚠️ [Excepciones](./Basico/Excepciones/)          | ⏳ **Próximamente** | -           | Manejo de errores                                         |
+| ⚠️ [Excepciones](./basic/excepciones/)           | ✅ **Completado**   | 5 archivos  | Manejo de errores y excepciones completo                 |
 | 🐛 [Depuración](./Basico/Depuración-de-errores/) | ⏳ **Próximamente** | -           | Testing y debugging                                       |
 | ⭐ [Extras](./Basico/Extras/)                     | ⏳ **Próximamente** | -           | Características avanzadas                                 |
 
 ### 📈 Progreso del Proyecto
 
 ```text
-📚 Contenido Completado: ██████████████████░░ 90% (8/11 módulos)
-🎯 Archivos Disponibles: 53 ejemplos prácticos
-⭐ Estado: Nivel Intermedio Avanzado - POO Completado
+📚 Contenido Completado: ███████████████████░ 95% (9/11 módulos)
+🎯 Archivos Disponibles: 58 ejemplos prácticos
+⭐ Estado: Nivel Avanzado - Solo faltan módulos especializados
 ```
 
 ## 🚀 Contenido Disponible
@@ -366,6 +377,14 @@ javac polimorfismo.java && java polimorfismo
 javac abstraccion.java && java abstraccion
 javac modificadoresdeacceso.java && java modificadoresdeacceso
 javac composicion.java && java composicion
+
+# Maneja Excepciones (¡Nuevo!)
+cd ../excepciones
+javac excepciones.java && java excepciones
+javac manejodeexcepciones.java && java manejodeexcepciones
+javac lanzamientodeexcepciones.java && java lanzamientodeexcepciones
+javac excepcionespersonalizadas.java && java excepcionespersonalizadas
+javac ejerciciosdeexcepciones.java && java ejerciciosdeexcepciones
 ```
 
 ## 📚 Recursos de Aprendizaje
