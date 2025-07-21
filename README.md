@@ -36,7 +36,7 @@
 | 🏁 [Primeros Pasos](./basic/primerospasos/)       | ✅ **Completado**   | 6 archivos  | Fundamentos básicos de Java                               |
 | 🔧 [Operadores](./basic/operadores/)             | ✅ **Activo**       | 6 archivos  | Operadores aritméticos, lógicos, comparación y asignación |
 | 🔀 [Condicionales](./basic/condicionales/)       | ✅ **Activo**       | 4 archivos  | Estructuras de control if, switch y ejercicios            |
-| 🔄 [Bucles](./Basico/Bucles/)                    | ⏳ **Próximamente** | -           | Ciclos e iteración                                        |
+| 🔄 [Bucles](./basic/bucles/)                     | ✅ **Completado**   | 5 archivos  | Ciclos for, while, do-while, foreach y control de flujo   |
 | 🎭 [Strings](./basic/strings/)                   | ✅ **Activo**       | 10 archivos | Manipulación completa de cadenas de texto                 |
 | 🏗️ [Estructuras de Datos](./basic/estructuradedatos/) | ✅ **Completado**   | 5 archivos  | Arrays, listas, mapas, sets y ejercicios prácticos       |
 | 🛠️ [Funciones](./Basico/Funciones/)             | ⏳ **Próximamente** | -           | Métodos y funciones                                       |
@@ -48,8 +48,8 @@
 ### 📈 Progreso del Proyecto
 
 ```text
-📚 Contenido Completado: ████████████████░░░░ 80% (5/11 módulos)
-🎯 Archivos Disponibles: 31 ejemplos prácticos
+📚 Contenido Completado: ██████████████████░░ 90% (6/11 módulos)
+🎯 Archivos Disponibles: 36 ejemplos prácticos
 ⭐ Estado: Desarrollo Avanzado
 ```
 
@@ -101,6 +101,16 @@
 | [`Switch.java`](./basic/condicionales/sentenciaswitch.java) | Switch expressions modernas | `switch` con `->`, pattern matching |
 | [`Conditionals.java`](./basic/condicionales/condicionales.java) | Condicionales avanzadas | Combinación de condiciones, lógica compleja |
 | [`EjerciciosCondicionales.java`](./basic/condicionales/ejercicioscondicionales.java) | Ejercicios prácticos | Aplicación de todas las estructuras condicionales |
+
+### 🔄 **Bucles** - ¡Completado
+
+| Archivo | Descripción | Conceptos Clave |
+|---------|-------------|-----------------|
+| [`buclefor.java`](./basic/bucles/buclefor.java) | Bucles for básicos y avanzados | `for`, incremento/decremento, bucles anidados |
+| [`whileydowhile.java`](./basic/bucles/whileydowhile.java) | Bucles while y do-while | `while`, `do-while`, condiciones de parada |
+| [`foreach.java`](./basic/bucles/foreach.java) | Enhanced for loops (foreach) | `for-each`, iteración sobre arrays y colecciones |
+| [`controldebucles.java`](./basic/bucles/controldebucles.java) | Control de flujo en bucles | `break`, `continue`, control de iteraciones |
+| [`ejerciciosbucles.java`](./basic/bucles/ejerciciosbucles.java) | Ejercicios prácticos integrados | Combinación de todos los tipos de bucles |
 
 ### 🏗️ **Estructuras de Datos** - ¡Completado
 
@@ -155,6 +165,17 @@
 - ✅ Anidamiento de estructuras condicionales
 - ✅ Mejores prácticas en control de flujo
 - ✅ Ejercicios prácticos completos
+
+#### 🔄 **Bucles** - ¡Ya Disponible
+
+- ✅ Bucles `for`: básicos, con arrays, incremento/decremento
+- ✅ Bucles `while`: condiciones de entrada, iteración controlada
+- ✅ Bucles `do-while`: ejecución garantizada, condiciones de salida
+- ✅ Enhanced for loops (`for-each`): iteración sobre arrays y colecciones
+- ✅ Control de flujo: `break` y `continue`
+- ✅ Bucles anidados y patrones complejos
+- ✅ Optimización y mejores prácticas
+- ✅ Ejercicios prácticos variados
 
 #### 🏗️ **Estructuras de Datos** - ¡Ya Disponible
 
@@ -255,6 +276,14 @@ cd ../condicionales
 javac sentenicaif.java && java sentenicaif
 javac sentenciaswitch.java && java sentenciaswitch
 javac ejercicioscondicionales.java && java ejercicioscondicionales
+
+# Explora Bucles (¡Nuevo!)
+cd ../bucles
+javac buclefor.java && java buclefor
+javac whileydowhile.java && java whileydowhile
+javac foreach.java && java foreach
+javac controldebucles.java && java controldebucles
+javac ejerciciosbucles.java && java ejerciciosbucles
 
 # Explora Estructuras de Datos (¡Nuevo!)
 cd ../estructuradedatos
