@@ -1,6 +1,6 @@
 # ☕ Guía Completa de Java - De Principiante a Experto
 
-[![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor| [`composicion.java`](./basic/poo/composicion.java) | Composición | Relaciones entre - ✅ Ejercicios prácticos completos
+[![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColo| [`composicion.java`](./basic/poo/composicion.java) | Composición | Relaciones entre o- ✅ Ejercicios prácticos completos
 
 ## 🐛 **Depuración de Errores** - ¡Ya Disponible
 
@@ -11,15 +11,25 @@
 - ✅ **Depuración práctica**: ejemplo funcional de manejo de errores
 - ✅ **Mejores prácticas**: cuándo y cómo debuggear código Java
 
-### 🔧 **Conceptos Intermedios** (Próximamente)etos, composición vs herencia |
+### ⭐ **Extras** - ¡Ya Disponible
 
-### 🐛 **Depuración de Errores** - ¡Completado
+- ✅ **Funcionalidades extras**: características avanzadas y útiles
+- ✅ **Paquetes y organización**: estructura modular de código
+- ✅ **Métodos estáticos**: utilidades y funciones auxiliares
+- ✅ **Imports estáticos**: uso eficiente de métodos de otros paquetes
+- ✅ **Extensibilidad**: preparación para funcionalidades futuras
+- ✅ **Mejores prácticas**: organización de código y modularidad
+
+#### 🔧 **Conceptos Intermedios** (Próximamente)tos, composición vs herencia |
+
+### ⭐ **Extras** - ¡Completado
 
 | Archivo | Descripción | Conceptos Clave |
 |---------|-------------|-----------------|
-| [`depuraciondeerrores.java`](./basic/depuracionderrores/depuraciondeerrores.java) | Depuración básica de errores | `try-catch-finally`, manejo de `ArrayIndexOutOfBoundsException` |
+| [`extras.java`](./basic/extras/extras.java) | Funcionalidades extras básicas | Paquetes, métodos estáticos, estructura modular |
+| [`ejerciciosextras.java`](./basic/extras/ejerciciosextras.java) | Ejercicios de funcionalidades extras | Imports estáticos, uso de paquetes, extensibilidad |
 
-### 🎯 Lo Que Aprenderásite)](<https://www.oracle.com/java/>)
+### 🎯 Lo Que Aprenderáshite)](<https://www.oracle.com/java/>)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
@@ -49,7 +59,7 @@
 
 > 🔄 Contenido en desarrollo activo - Se actualiza regularmente
 >
-> 🎉 **¡HITO ÉPICO ALCANZADO!** - Depuración completada - 97% del contenido listo
+> 🎉 **¡PROYECTO COMPLETADO AL 100%!** - Extras completado - ¡Guía totalmente finalizada!
 
 ### 📁 Módulos Disponibles
 
@@ -65,14 +75,14 @@
 | 🏛️ [POO](./basic/poo/)                          | ✅ **Completado**   | 12 archivos | Programación Orientada a Objetos completa                |
 | ⚠️ [Excepciones](./basic/excepciones/)           | ✅ **Completado**   | 5 archivos  | Manejo de errores y excepciones completo                 |
 | 🐛 [Depuración](./basic/depuracionderrores/)     | ✅ **Completado**   | 1 archivo   | Depuración y manejo de errores                           |
-| ⭐ [Extras](./Basico/Extras/)                     | ⏳ **Próximamente** | -           | Características avanzadas                                 |
+| ⭐ [Extras](./basic/extras/)                     | ✅ **Completado**   | 2 archivos  | Características avanzadas y funcionalidades extras       |
 
 ### 📈 Progreso del Proyecto
 
 ```text
-📚 Contenido Completado: ███████████████████▓ 97% (10/11 módulos)
-🎯 Archivos Disponibles: 59 ejemplos prácticos
-⭐ Estado: Nivel Experto - Solo falta el módulo de extras
+📚 Contenido Completado: ████████████████████ 100% (11/11 módulos)
+🎯 Archivos Disponibles: 61 ejemplos prácticos
+⭐ Estado: ¡PROYECTO COMPLETADO! - Todos los módulos listos
 ```
 
 ## 🚀 Contenido Disponible
@@ -383,6 +393,11 @@ javac ejerciciosdeexcepciones.java && java ejerciciosdeexcepciones
 # Aprende Depuración (¡Nuevo!)
 cd ../depuracionderrores
 javac depuraciondeerrores.java && java depuraciondeerrores
+
+# Explora Extras (¡Nuevo!)
+cd ../extras
+javac extras.java && java extras
+javac ejerciciosextras.java && java ejerciciosextras
 ```
 
 ## 📚 Recursos de Aprendizaje
