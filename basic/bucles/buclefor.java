@@ -9,8 +9,8 @@ public class buclefor {
 
         // Bucle for con un array
         String[] nombres = {"Juan", "Ana", "Pedro", "Maria"};
-        for (int i = 0; i < nombres.length; i++) {
-            System.out.println("Nombre: " + nombres[i]);
+        for (String nombre : nombres) {
+            System.out.println("Nombre: " + nombre);
         }
 
         // Bucle for con un rango
