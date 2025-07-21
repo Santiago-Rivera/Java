@@ -1,7 +1,21 @@
 # ☕ Guía Completa de Java - De Principiante a Experto
 
 [![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/ba- ✅ Ejercicios prácticos completos
+
+#### 🏛️ **Programación Orientada a Objetos (POO)** - ¡Ya Disponible
+
+- ✅ **Conceptos fundamentales**: paradigma orientado a objetos
+- ✅ **Clases y objetos**: definición, instanciación, atributos y métodos
+- ✅ **Herencia**: `extends`, superclases, subclases, palabra clave `super`
+- ✅ **Polimorfismo**: sobrescritura de métodos, `@Override`, polimorfismo dinámico
+- ✅ **Abstracción**: clases abstractas, métodos abstractos, interfaces
+- ✅ **Encapsulación**: modificadores de acceso (`public`, `private`, `protected`)
+- ✅ **Composición**: relaciones entre objetos, composición vs herencia
+- ✅ **Ejercicios prácticos**: para cada concepto de POO
+- ✅ **Mejores prácticas**: diseño orientado a objetos
+
+#### 🔧 **Conceptos Avanzados** (Próximamente)/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 [![GitHub Stars](https://img.shields.io/github/stars/Santiago-Rivera/Java?style=for-the-badge)](https://github.com/Santiago-Rivera/Java)
 [![Last Updated](https://img.shields.io/badge/Updated-Julio%202025-blue?style=for-the-badge)](https://github.com/Santiago-Rivera/Java)
@@ -29,7 +43,7 @@
 
 > 🔄 Contenido en desarrollo activo - Se actualiza regularmente
 >
-> 🎉 **¡HITO ALCANZADO!** - Todos los módulos básicos de Java están completos
+> 🎉 **¡GRAN HITO ALCANZADO!** - POO completado - Fundamentos e Intermedio dominados
 
 ### 📁 Módulos Disponibles
 
@@ -42,7 +56,7 @@
 | 🎭 [Strings](./basic/strings/)                   | ✅ **Activo**       | 10 archivos | Manipulación completa de cadenas de texto                 |
 | 🏗️ [Estructuras de Datos](./basic/estructuradedatos/) | ✅ **Completado**   | 5 archivos  | Arrays, listas, mapas, sets y ejercicios prácticos       |
 | 🛠️ [Funciones](./basic/funciones/)              | ✅ **Completado**   | 5 archivos  | Métodos, parámetros, retorno, sobrecarga y ejercicios    |
-| 🏛️ [POO](./Basico/Poo/)                         | ⏳ **Próximamente** | -           | Programación Orientada a Objetos                          |
+| 🏛️ [POO](./basic/poo/)                          | ✅ **Completado**   | 12 archivos | Programación Orientada a Objetos completa                |
 | ⚠️ [Excepciones](./Basico/Excepciones/)          | ⏳ **Próximamente** | -           | Manejo de errores                                         |
 | 🐛 [Depuración](./Basico/Depuración-de-errores/) | ⏳ **Próximamente** | -           | Testing y debugging                                       |
 | ⭐ [Extras](./Basico/Extras/)                     | ⏳ **Próximamente** | -           | Características avanzadas                                 |
@@ -50,9 +64,9 @@
 ### 📈 Progreso del Proyecto
 
 ```text
-📚 Contenido Completado: ████████████████████ 100% (7/11 módulos básicos)
-🎯 Archivos Disponibles: 41 ejemplos prácticos
-⭐ Estado: Nivel Básico Completado - Avanzando a Intermedio
+📚 Contenido Completado: ██████████████████░░ 90% (8/11 módulos)
+🎯 Archivos Disponibles: 53 ejemplos prácticos
+⭐ Estado: Nivel Intermedio Avanzado - POO Completado
 ```
 
 ## 🚀 Contenido Disponible
@@ -134,7 +148,24 @@
 | [`funcionesconparametors_sobrecarga.java`](./basic/funciones/funcionesconparametors_sobrecarga.java) | Parámetros y sobrecarga de métodos | Parámetros, sobrecarga (`overload`), polimorfismo |
 | [`ejerciciosdefunciones.java`](./basic/funciones/ejerciciosdefunciones.java) | Ejercicios prácticos integrados | Combinación de todos los conceptos de funciones |
 
-### 🎯 Lo Que Aprenderás
+### �️ **Programación Orientada a Objetos (POO)** - ¡Completado
+
+| Archivo | Descripción | Conceptos Clave |
+|---------|-------------|-----------------|
+| [`poo.java`](./basic/poo/poo.java) | Introducción a POO | Paradigma orientado a objetos, conceptos fundamentales |
+| [`clasesyobjetos.java`](./basic/poo/clasesyobjetos.java) | Clases y objetos básicos | `class`, instanciación, métodos, atributos |
+| [`ejerciciosdeclasesyobjetos.java`](./basic/poo/ejerciciosdeclasesyobjetos.java) | Ejercicios de clases y objetos | Práctica con creación y uso de objetos |
+| [`herencia.java`](./basic/poo/herencia.java) | Herencia en Java | `extends`, superclases, subclases, `super` |
+| [`ejerciciosdeherencia.java`](./basic/poo/ejerciciosdeherencia.java) | Ejercicios de herencia | Práctica con jerarquías de clases |
+| [`polimorfismo.java`](./basic/poo/polimorfismo.java) | Polimorfismo | Sobrescritura, `@Override`, polimorfismo dinámico |
+| [`ejerciciosdepolimorfismo.java`](./basic/poo/ejerciciosdepolimorfismo.java) | Ejercicios de polimorfismo | Práctica con métodos polimórficos |
+| [`abstraccion.java`](./basic/poo/abstraccion.java) | Abstracción | Clases abstractas, métodos abstractos, interfaces |
+| [`ejerciciosdeabstraccion.java`](./basic/poo/ejerciciosdeabstraccion.java) | Ejercicios de abstracción | Práctica con abstracción y interfaces |
+| [`modificadoresdeacceso.java`](./basic/poo/modificadoresdeacceso.java) | Modificadores de acceso | `public`, `private`, `protected`, `package-private` |
+| [`ejerciciosdemodifecadoresdeacceso.java`](./basic/poo/ejerciciosdemodifecadoresdeacceso.java) | Ejercicios de modificadores | Práctica con encapsulación y visibilidad |
+| [`composicion.java`](./basic/poo/composicion.java) | Composición | Relaciones entre objetos, composición vs herencia |
+
+### �🎯 Lo Que Aprenderás
 
 #### 🏁 **Fundamentos Básicos**
 
@@ -324,6 +355,16 @@ javac funcionessinparametrosniretorno.java && java funcionessinparametrosniretor
 javac funcionesconretorno.java && java funcionesconretorno
 javac funcionesconparametors_sobrecarga.java && java funcionesconparametors_sobrecarga
 javac ejerciciosdefunciones.java && java ejerciciosdefunciones
+
+# Domina POO (¡Nuevo!)
+cd ../poo
+javac poo.java && java poo
+javac clasesyobjetos.java && java clasesyobjetos
+javac herencia.java && java herencia
+javac polimorfismo.java && java polimorfismo
+javac abstraccion.java && java abstraccion
+javac modificadoresdeacceso.java && java modificadoresdeacceso
+javac composicion.java && java composicion
 ```
 
 ## 📚 Recursos de Aprendizaje
